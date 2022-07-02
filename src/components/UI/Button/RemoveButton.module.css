@@ -1,0 +1,18 @@
+.removeButton {
+    border: 1px solid #039191;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 14px;
+    line-height: 1;
+    text-decoration: none;
+    color:rgba(3, 145, 145, 1);
+    text-align: center;
+    cursor: pointer;
+    min-width: 150px;
+    font-weight: 600;
+}
+
+.removeButton:hover {
+    box-shadow: 0.2rem .2rem 0.5rem rgba(0,0,0,.10)!important;
+}

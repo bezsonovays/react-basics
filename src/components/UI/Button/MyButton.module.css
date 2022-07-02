@@ -1,0 +1,26 @@
+.myBtn {
+    background: #ffe100;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 14px;
+    line-height: 1;
+    text-decoration: none;
+    color: #3c3c3c;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    min-width: 160px;
+}
+
+.myBtn:hover {
+    box-shadow: 0.2rem .2rem 0.5rem rgba(0,0,0,.10)!important;
+}
+
+.myBtn:disabled {
+    background: #ebebeb;
+    cursor: unset;
+}
+
+.myBtn:hover:disabled {
+    box-shadow:unset !important;
+}

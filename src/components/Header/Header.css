@@ -1,0 +1,14 @@
+#AppHeader {
+    background-color: rgb(3, 145, 145);
+    padding: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#AppHeader .title {
+    max-width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+      color: #fff;
+}
+
